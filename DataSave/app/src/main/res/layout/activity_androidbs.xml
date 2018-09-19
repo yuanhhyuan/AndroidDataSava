@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/spedit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="张某某"
+            android:imeOptions="actionDone"
+            android:inputType="text"
+            android:singleLine="true"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/spout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="SP输出："
+            android:textSize="15dp"
+            />
+
+        <Button
+            android:id="@+id/spwrite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="spwrite"
+            />
+
+        <Button
+            android:id="@+id/spread"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="spread"
+            />
+
+        <EditText
+            android:id="@+id/filewrite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="file输入："
+            android:imeOptions="actionDone"
+            android:inputType="text"/>
+
+        <EditText
+            android:id="@+id/fileread"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="file输出："
+            android:imeOptions="actionDone"
+            android:inputType="text"/>
+
+        <Button
+            android:id="@+id/filewrite1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="filewrite"
+            />
+
+        <Button
+            android:id="@+id/fileread1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="fileread"
+            />
+
+        <EditText
+            android:id="@+id/cachewrite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="cache输入："
+            android:imeOptions="actionDone"
+            android:inputType="text"/>
+
+        <EditText
+            android:id="@+id/cacheread"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:hint="cache输出："
+            android:imeOptions="actionDone"
+            android:inputType="text"/>
+
+        <Button
+            android:id="@+id/cachewrite1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="cachewrite"
+            />
+
+        <Button
+            android:id="@+id/cacheread1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="cacheread"
+            />
+
+        <EditText
+            android:id="@+id/externalWrite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="external输入："
+            android:imeOptions="actionDone"
+            android:inputType="text"/>
+
+        <Button
+            android:id="@+id/externalWrite1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="externalWrite"
+            />
+
+        <Button
+            android:id="@+id/externalRead"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="externalRead"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="安卓数据库ORMlite"
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/zeng"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="zeng"
+            />
+
+        <Button
+            android:id="@+id/insert0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="插入一条已经存在的记录"
+            />
+
+        <Button
+            android:id="@+id/insert1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="插入一条不存在的记录"
+            />
+
+        <Button
+            android:id="@+id/shan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="shan"
+            />
+
+        <Button
+            android:id="@+id/shanall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="删除所有"
+            />
+
+        <Button
+            android:id="@+id/gai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="gai"
+            />
+
+        <Button
+            android:id="@+id/cha0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="querywhere"
+            />
+
+        <Button
+            android:id="@+id/cha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="queryall"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="安卓数据库GreenDao"
+            android:textSize="20sp"
+            android:textColor="#FF0000"/>
+
+        <Button
+            android:id="@+id/insertg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GreenDao insert"
+            />
+
+        <Button
+            android:id="@+id/deleteg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GreenDao delete"
+            />
+
+        <Button
+            android:id="@+id/updateg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GreenDao update"
+            />
+
+        <Button
+            android:id="@+id/queryg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GreenDao query"
+            />
+
+        <Button
+            android:id="@+id/queryallg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GreenDao queryall"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="安卓数据库GreenDao加密"
+            android:textSize="20sp"
+            android:textColor="#FF0000"/>
+
+        <Button
+            android:id="@+id/insertgs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GreenDao 加密 insert"
+            />
+
+        <Button
+            android:id="@+id/queryallgs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GreenDao 加密 queryall"
+            />
+
+    </LinearLayout>
+</ScrollView>
